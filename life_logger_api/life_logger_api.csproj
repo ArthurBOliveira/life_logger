@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\life_logger_base\life_logger_models.csproj" />
+    <ProjectReference Include="..\life_logger_repositories\life_logger_repositories.csproj" />
   </ItemGroup>
 
 </Project>

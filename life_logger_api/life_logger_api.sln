@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "life_logger_api", "life_logger_api.csproj", "{BEA1FC0E-D033-4BF2-8CC3-41FA3CA346FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "life_logger_models", "..\life_logger_base\life_logger_models.csproj", "{91DE3ADE-66A6-41AF-8E36-D0B49CC44783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "life_logger_repositories", "..\life_logger_repositories\life_logger_repositories.csproj", "{16B0C5DA-248F-450C-BCE3-5D401C5DFD2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BEA1FC0E-D033-4BF2-8CC3-41FA3CA346FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA1FC0E-D033-4BF2-8CC3-41FA3CA346FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA1FC0E-D033-4BF2-8CC3-41FA3CA346FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DE3ADE-66A6-41AF-8E36-D0B49CC44783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DE3ADE-66A6-41AF-8E36-D0B49CC44783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DE3ADE-66A6-41AF-8E36-D0B49CC44783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DE3ADE-66A6-41AF-8E36-D0B49CC44783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B0C5DA-248F-450C-BCE3-5D401C5DFD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B0C5DA-248F-450C-BCE3-5D401C5DFD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B0C5DA-248F-450C-BCE3-5D401C5DFD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B0C5DA-248F-450C-BCE3-5D401C5DFD2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
